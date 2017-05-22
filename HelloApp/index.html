@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title></title>
 </head>
 <body>
+<div ng-app="">
 
+    <p>Enter Some text : <input type="text" ng-model="someText"></p>
+    <p>Hello <span ng-bind="someText"></span>!</p>
+
+</div>
+<script src="libs/Angular/angular.min.js"></script>
 </body>
 </html>
